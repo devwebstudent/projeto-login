@@ -71,7 +71,7 @@ div#formulario > p {
 form > div.campo {
     display: block;
     background-color: #5f2c82;
-    width: 100%;
+    width: 100%; /* isso vai ocupar a largura total do container, não da página inteira */
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
@@ -85,7 +85,7 @@ form > div > label > span {
 form > input[type=submit] {
     display: block;
     font-size: 1em;
-    width: 100%;
+    width: 100%; /* isso vai ocupar a largura total do container, não da página inteira */
     height: 40px;
     background-color: #49a09d;
     color: white;
@@ -103,7 +103,7 @@ form > a.botao {
     display: block;
     text-align: center;
     font-size: 1em;
-    width: 100%;
+    width: 100%; /* isso vai ocupar a largura total do container, não da página inteira */
     height: 40px;
     padding-top: 5px;
     background-color: white;

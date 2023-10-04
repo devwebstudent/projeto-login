@@ -29,7 +29,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden; /* tudo que estiver fora da borda ficará escondido */
 
     background-color: white;
@@ -38,6 +37,7 @@ section#login {
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.514);
 
+    transform: translate(-50%, -50%);
     transition: width .6s, height .6s;
     transition-timing-function: ease;
 }
@@ -73,13 +73,37 @@ form > div.campo {
     background-color: #5f2c82;
     width: 100%; /* isso vai ocupar a largura total do container, não da página inteira */
     height: 40px;
+    border: 2px solid #5f2c82;
     border-radius: 5px;
     margin: 5px 0px;
     padding-left: 5px;
 }
 
-form > div > label > span {
+form > div.campo > label > span {
     color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+form div.campo > input {
+    background-color: #74fcf7;
+    padding-left: 10px;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    transform: translate(1px, -12px);
+}
+
+form div.campo > input:hover {
+    background-color: white;
+}
+
+form div.campo > input:focus-within {
+    background-color: white;
+    border: none;
 }
 
 form > input[type=submit] {

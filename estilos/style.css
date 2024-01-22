@@ -109,14 +109,14 @@ form div.campo > input:focus-within {
 form > input[type=submit] {
     display: block;
     font-size: 1em;
-    width: 100%; /* isso vai ocupar a largura total do container, não da página inteira */
+    width: 100%; /* isso vai ocupar a largura total do container (form), não da página inteira */
     height: 40px;
     background-color: #49a09d;
     color: white;
     border: none;
     border-radius: 5px;
     margin-top: 10px;
-    cursor: pointer;
+    cursor: pointer; /* Para ficar o dedo quando passarmos o mouse em cima do input submit */
 }
 
 form > input[type=submit]:hover {
@@ -127,9 +127,9 @@ form > a.botao {
     display: block;
     text-align: center;
     font-size: 1em;
-    width: 100%; /* isso vai ocupar a largura total do container, não da página inteira */
+    width: 100%; /* isso vai ocupar a largura total do container (form), não da página inteira */
     height: 40px;
-    padding-top: 5px;
+    padding-top: 7px;
     background-color: white;
     color: #265352;
     border: 1px solid #49a09d;

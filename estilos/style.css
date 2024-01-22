@@ -76,7 +76,7 @@ form > div.campo {
     border: 2px solid #5f2c82;
     border-radius: 5px;
     margin: 5px 0px;
-    padding-left: 5px;
+    padding-left: 2px;
 }
 
 form > div.campo > label > span {
